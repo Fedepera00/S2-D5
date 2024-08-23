@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  height: 100vw;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #222f3f;
+  padding: 5px 5px;
+  color: white;
+}
+
+.top-nav ul {
+  display: flex;
+  gap: 15px;
+  background-color: #354757;
+  border: none;
+}
+
+.top-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.gift-card-banner {
+  background-color: #f66504;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.gift-card-banner a {
+  color: white;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+div p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.hero-banner {
+  text-align: center;
+  align-content: center;
+  color: white;
+  padding: 20px;
+  height: 200px;
+  background-size: contain;
+  background-image: url(../images/bg-image.png);
+}
+
+.hero-banner h1 {
+  font-size: 32px;
+}
+
+.hero-banner p {
+  font-size: 18px;
+}
+
+.gift-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gift-category {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.gift-category img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.gaming-section,
+.audio-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gaming-section img,
+.audio-section img {
+  width: 100%;
+  height: auto;
+}
+
+.gaming-section p,
+.audio-section p {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #354758;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+}
+
+.end {
+  background-color: #222f3f;
+  width: 93.5%;
+  padding: 3rem;
+  display: block;
+  text-align: center;
+}
